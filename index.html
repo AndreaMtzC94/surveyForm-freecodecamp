@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </header>
+
+        <form>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+
+            <div>
+                <label for="number">Age (optional)</label>
+                <input type="text" name="age">
+            </div>
+
+            <div>
+                <p>Which option describes your current role?</p>
+                <select name="role" id="dropdown">
+                    <option value="">Select currrent role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="">
+                    <input type="radio"> Definitely
+                </label>
+                <label for="">
+                    <input type="radio"> Maybe
+                </label>
+                <label for="">
+                    <input type="radio"> Not sure
+                </label>
+            </div>
+
+            <div>
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select name="mostLike" id="most-like">
+                    <ooption value="">Select an option</ooption>
+                    <ooption value="challenges">Challenges</ooption>
+                    <ooption value="projects">Projects</ooption>
+                    <ooption value="community">Community</ooption>
+                    <ooption value="openSource">Open Source</ooption>
+                </select>
+            </div>
+
+            <div>
+                <p>What would you like to see improved? (Check all that apply)</p>
+
+                <label for=""><input type="checkbox">Front-end Projects</label>
+                <label for=""><input type="checkbox">Back-end Projects</label>
+                <label for=""><input type="checkbox">Data Visualization</label>
+                <label for=""><input type="checkbox">Challenges</label>
+                <label for=""><input type="checkbox">Open Source Community</label>
+                <label for=""><input type="checkbox">Gitter help rooms</label>
+                <label for=""><input type="checkbox">Videos</label>
+                <label for=""><input type="checkbox">City Meetups</label>
+                <label for=""><input type="checkbox">Wiki</label>
+                <label for=""><input type="checkbox">Forum</label>
+                <label for=""><input type="checkbox">Additional Courses</label>
+
+            </div>
+
+            <div>
+                <p>Any comments or suggestions?</p>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
